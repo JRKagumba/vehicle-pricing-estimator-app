@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500|Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+   <link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}">
+   <title>Vehicle Milage</title>
+   
+</head>
+
+<body>
+ 
+      <div class="pages-container">
+        
+        <div class="form-container">
+        
+               <form action="/prediction" method="POST" class="sign-up-form" id="milage-form">
+                <label for="cars">Enter Vehicle Milage</label>
+                
+                <input class="form-input" type="text" id="selected_milage" name="selected_milage" maxlength="7" placeholder="Enter Milage" required >
+              
+                {% for detail in vehicle_details %}
+                <p> {{detail}} </p><br>
+                {% endfor %}
+              
+              </form>
+              
+
+              <div class="header">
+              </div>
+
+
+
+              <button class="back-button" onclick="history.back()">&#x2190; Back to Vehicle Year</button>
+              <button class="next-button" type="submit" form="milage-form">Continue to Predicted Price &#x2192;</button>
+
+
+        </div>
+    </div> 
+    
+
+    <script src="{{ url_for('static',filename='js/app.js') }}"></script>
+</body>
+</html>

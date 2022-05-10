@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500|Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+   <link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}">
+   <title>Home Page</title>
+</head>
+
+<body>
+  
+        <div class="home-container">
+          <div class="banner">
+              <h1 class="banner-heading">Vehicle Pricing Predictor</h1>
+              <div class="arrow">
+                  <i class="fas fa-arrow-down"></i>
+              </div>
+
+              <form action="/make" method="POST">
+                <button type="submit" class="banner-btn">Start</button>
+              </form>
+          </div>
+      </div>
+
+
+  <script src="{{ url_for('static',filename='js/app.js') }}"></script>
+</body>
+</html>
