@@ -1,2 +1,15 @@
-# vehicle_price_predictor
-A vehicle pricing predictor
+## Project Title
+
+### Overview
+
+### Background and Motivation
+
+### Goals
+
+### Datasets
+
+### Practical Applications
+
+### Milestones
+
+### References
