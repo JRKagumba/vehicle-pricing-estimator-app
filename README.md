@@ -1,15 +1,19 @@
-## Vehicle Pricing Estimator
+# Vehicle Pricing Estimator
 
-### Overview
+## Overview
 
-### Background and Motivation
+A site I created as the final model deployment step in an end-to-end data science project.
 
-### Goals
+Try it out at [vehicle-pricing-predictor.herokuapp.com/](http://vehicle-pricing-predictor.herokuapp.com/)
 
-### Datasets
+## Background and Motivation
 
-### Practical Applications
+## Goals
 
-### Milestones
+## Datasets
 
-### References
+## Practical Applications
+
+## Milestones
+
+## References
