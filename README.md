@@ -4,7 +4,7 @@
 
 A site I created as the final model deployment step in an end-to-end data science project. Opportunity to practice front-end development as well as working with a micro web framework such as Flask. Data collection, pre-processing and modeling steps available at [this repo]().
 
-Cheouk out the web app at: [vehicle-pricing-predictor.herokuapp.com/](http://vehicle-pricing-predictor.herokuapp.com/)
+Checkout out the web app at: [vehicle-pricing-predictor.herokuapp.com/](http://vehicle-pricing-predictor.herokuapp.com/)
 
 ## Practical Applications
 
